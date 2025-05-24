@@ -15,6 +15,8 @@ package helper
 //	actual := helper.ChanToSlice(helper.Add(ac, bc))
 //
 //	fmt.Println(actual) // [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+// 将两个chan进行相加，返回一个新的chan
 func Add[T Number](ac, bc <-chan T) <-chan T {
 	return Operate(ac, bc, func(a, b T) T {
 		return a + b

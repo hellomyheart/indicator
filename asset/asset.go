@@ -16,4 +16,7 @@
 // The information provided on this project is strictly for
 // informational purposes and is not to be construed as
 // advice or solicitation to buy or sell any security.
+
+// 资产包，还不清楚主要是干嘛的
+
 package asset
